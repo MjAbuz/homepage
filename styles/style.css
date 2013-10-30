@@ -1,0 +1,31 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#tabs {
+    float: left;
+    margin-right: 10px;
+}
+
+#tabs li {
+    cursor: pointer;
+}
+
+#tabs li.current {
+    font-weight: bolder;
+}
+
+#content {
+    height: 100%;
+    background: #F2F2F2;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+#content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
