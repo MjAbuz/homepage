@@ -5,25 +5,25 @@ body, html {
     overflow: hidden;
 }
 
-#menu {
+div#menu {
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
 }
 
-#tabs {
+ul.tabs {
 }
 
-#tabs li.current {
+ul.tabs li.current {
     font-weight: bolder;
 }
 
-#tabs li a {
+ul.tabs li a {
     cursor: pointer;
 }
 
-#content {
+div#content {
     background: #F2F2F2;
     margin-left: 200px;
     padding: 5px;
@@ -35,7 +35,7 @@ body, html {
     left: 0;
 }
 
-#content iframe {
+div#content iframe {
     height: 100%;
     border: none;
 }

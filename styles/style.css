@@ -13,19 +13,19 @@ a:hover {
 }
 
 /* Menu style */
-#menu {
+div#menu {
     background: #333333;
 }
 
-#tabs {
+ul.tabs {
     width: 250px;
 }
 
-#tabs li {
+ul.tabs li {
     font: 80% 'DejaVu Sans', Verdana, Helvetica, sans-serif;
 }
 
-#tabs li a {
+ul.tabs li a {
     background: #333333;
     border-bottom: 1px solid #393939;
     color: #DCDCDC;
@@ -33,17 +33,17 @@ a:hover {
     padding: 10px 20px;
 }
 
-#tabs li.current a {
+ul.tabs li.current a {
     background-color: #FFFFFF;
     color: #5D5D5D;
 }
 
-#tabs li a:hover {
+ul.tabs li a:hover {
     background: #2580A2 url('../images/hover.gif') left center no-repeat;
     color: #FFFFFF;
 }
 
-#tabs li.current a:hover {
+ul.tabs li.current a:hover {
     background-color: #FFFFFF;
     color: #2B2B2B;
 }

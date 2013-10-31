@@ -1,8 +1,8 @@
 $(window).load(function () {
 
-    var tabs = $('#tabs li');
-    var links = $('#tabs li a');
-    var content = $('#content');
+    var tabs = $('ul.tabs li');
+    var links = $('ul.tabs li a');
+    var content = $('div#content');
 
     // iframe show function
     function showIframe(pageid, url) {
@@ -36,7 +36,7 @@ $(window).load(function () {
 
         var url = link.attr('href');
         var pageid = 'page-' + parent.index();
-        var visible = $('#content iframe:visible');
+        var visible = $('div#content iframe:visible');
         if (visible.length == 0) {
             showIframe(pageid, url);
         } else {
